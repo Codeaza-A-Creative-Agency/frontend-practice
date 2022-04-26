@@ -1,12 +1,11 @@
-import React from "react";
-import "./App.scss";
+import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Home from "./Pages/Home/Home";
+import Dashboard from "./Pages/Dashboard/Dashboard";
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <Dashboard />
     </div>
   );
 }
